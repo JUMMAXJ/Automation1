@@ -1,0 +1,8 @@
+ { 
+ "validEmail": "AdePeace@gmail.com",
+ "validPassword": "ADEola123",
+ "invalidEmail": "Ade@gmail.com",
+ "invalidPassword":"Ola123",
+ "freshEmail":"Jummy@gmail.com",
+ "frshPassword":"123"
+}
