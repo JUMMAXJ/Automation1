@@ -1,0 +1,23 @@
+{
+  "name": "doyenifycypressclass",
+  "version": "1.0.0",
+  "description": "Doyenify First Automation Class",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "test:open": "npx cypress run --e2e --browser electron",
+    "test:doyen": "npx cypress run --browser chrome",
+    "test:edge": "npx cypress run --browser edge",
+    "test:spec": "npx cypress run --spec 'cypress/e2e/e2e/table.cy.js'",
+    "test:Spces": "npx cypress run --spec 'cypress/e2e/e2e/*'"
+  },
+  "author": "Oluwatoyin Ayankunle",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.1",
+    "cypress": "^13.14.2"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
